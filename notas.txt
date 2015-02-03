@@ -1,0 +1,26 @@
+B2024002040300S04046829WA004630049800000
+B 202400 2040300S 04046829W A 00463 004980 0000
+B/202355/2040300S/04046829W/A/00463/004980/0000
+
+Waypoints:
+Nome,Codigo,Pais,Latitude,Longitude,Elevacao,style,rwdir,rwlen,freq,desc
+
+Nome == Codigo
+    · 5 caracteres
+
+Pais == ''
+
+Latitude
+    · 0000.000[NS]
+
+Longitude
+    · 00000.000[WE]
+
+Elevacao
+    · 0000.00000m
+
+style == 31
+
+rwdir == rwlen == freq == ''
+
+desc == ""
