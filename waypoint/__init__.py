@@ -1,6 +1,7 @@
 class Waypoint(object):
-    def __init__(self,name,code,country,lat,long,elevation
+    def __init__(self,time,name,code,country,lat,long,elevation
                 ,style=31,rwdir='',rwlen='',freq='',desc='""'):
+        self._time      = time
         self._name      = '"'+name+'"'
         self._code      = '"'+code+'"'
         self._country   = country
@@ -33,6 +34,6 @@ if __name__ == '__main__':
     long   = "04057.348W"
     height = 794.44482
 
-    wp = Waypoint(name,name,'',lat,long,height)
+    wp = Waypoint("",name,name,'',lat,long,height)
 
     print wp
