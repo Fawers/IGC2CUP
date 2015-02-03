@@ -27,11 +27,12 @@ class Waypoint(object):
 
         return ','.join(fields)
 
-name   = "T%04i" % 1
-lat    = "1937.835S"
-long   = "04057.348W"
-height = 794.44482
+if __name__ == '__main__':
+    name   = "T%04i" % 1
+    lat    = "1937.835S"
+    long   = "04057.348W"
+    height = 794.44482
 
-wp = Waypoint(name,name,'',lat,long,height)
+    wp = Waypoint(name,name,'',lat,long,height)
 
-print wp
+    print wp
